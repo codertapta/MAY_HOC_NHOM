@@ -1,0 +1,1164 @@
+{
+ "shape_raw": {
+  "train": [
+   1460,
+   81
+  ],
+  "test": [
+   1459,
+   80
+  ]
+ },
+ "missing_raw": [
+  7829,
+  7878
+ ],
+ "outlier_table": [
+  {
+   "feature": "LotFrontage",
+   "Q1": 60.0,
+   "Q3": 80.0,
+   "IQR": 20.0,
+   "lower": 30.0,
+   "upper": 110.0,
+   "n_IQR": 93,
+   "n_Z": 15,
+   "zero_ratio": 0.0,
+   "skew": 2.21,
+   "pct_IQR": 6.37,
+   "pct_Z": 1.03
+  },
+  {
+   "feature": "LotArea",
+   "Q1": 7553.5,
+   "Q3": 11601.5,
+   "IQR": 4048.0,
+   "lower": 1481.5,
+   "upper": 17673.5,
+   "n_IQR": 69,
+   "n_Z": 13,
+   "zero_ratio": 0.0,
+   "skew": 12.21,
+   "pct_IQR": 4.73,
+   "pct_Z": 0.89
+  },
+  {
+   "feature": "MasVnrArea",
+   "Q1": 0.0,
+   "Q3": 164.25,
+   "IQR": 164.25,
+   "lower": -246.375,
+   "upper": 410.625,
+   "n_IQR": 98,
+   "n_Z": 32,
+   "zero_ratio": 0.595,
+   "skew": 2.68,
+   "pct_IQR": 6.71,
+   "pct_Z": 2.19
+  },
+  {
+   "feature": "BsmtFinSF1",
+   "Q1": 0.0,
+   "Q3": 712.25,
+   "IQR": 712.25,
+   "lower": -1068.375,
+   "upper": 1780.625,
+   "n_IQR": 7,
+   "n_Z": 6,
+   "zero_ratio": 0.32,
+   "skew": 1.69,
+   "pct_IQR": 0.48,
+   "pct_Z": 0.41
+  },
+  {
+   "feature": "BsmtFinSF2",
+   "Q1": 0.0,
+   "Q3": 0.0,
+   "IQR": 0.0,
+   "lower": 0.0,
+   "upper": 0.0,
+   "n_IQR": 167,
+   "n_Z": 50,
+   "zero_ratio": 0.886,
+   "skew": 4.26,
+   "pct_IQR": 11.44,
+   "pct_Z": 3.42
+  },
+  {
+   "feature": "BsmtUnfSF",
+   "Q1": 223.0,
+   "Q3": 808.0,
+   "IQR": 585.0,
+   "lower": -654.5,
+   "upper": 1685.5,
+   "n_IQR": 29,
+   "n_Z": 11,
+   "zero_ratio": 0.081,
+   "skew": 0.92,
+   "pct_IQR": 1.99,
+   "pct_Z": 0.75
+  },
+  {
+   "feature": "TotalBsmtSF",
+   "Q1": 795.75,
+   "Q3": 1298.25,
+   "IQR": 502.5,
+   "lower": 42.0,
+   "upper": 2052.0,
+   "n_IQR": 61,
+   "n_Z": 10,
+   "zero_ratio": 0.025,
+   "skew": 1.52,
+   "pct_IQR": 4.18,
+   "pct_Z": 0.68
+  },
+  {
+   "feature": "1stFlrSF",
+   "Q1": 882.0,
+   "Q3": 1391.25,
+   "IQR": 509.25,
+   "lower": 118.125,
+   "upper": 2155.125,
+   "n_IQR": 20,
+   "n_Z": 12,
+   "zero_ratio": 0.0,
+   "skew": 1.38,
+   "pct_IQR": 1.37,
+   "pct_Z": 0.82
+  },
+  {
+   "feature": "2ndFlrSF",
+   "Q1": 0.0,
+   "Q3": 728.0,
+   "IQR": 728.0,
+   "lower": -1092.0,
+   "upper": 1820.0,
+   "n_IQR": 2,
+   "n_Z": 4,
+   "zero_ratio": 0.568,
+   "skew": 0.81,
+   "pct_IQR": 0.14,
+   "pct_Z": 0.27
+  },
+  {
+   "feature": "LowQualFinSF",
+   "Q1": 0.0,
+   "Q3": 0.0,
+   "IQR": 0.0,
+   "lower": 0.0,
+   "upper": 0.0,
+   "n_IQR": 26,
+   "n_Z": 20,
+   "zero_ratio": 0.982,
+   "skew": 9.01,
+   "pct_IQR": 1.78,
+   "pct_Z": 1.37
+  },
+  {
+   "feature": "GrLivArea",
+   "Q1": 1129.5,
+   "Q3": 1776.75,
+   "IQR": 647.25,
+   "lower": 158.625,
+   "upper": 2747.625,
+   "n_IQR": 31,
+   "n_Z": 16,
+   "zero_ratio": 0.0,
+   "skew": 1.37,
+   "pct_IQR": 2.12,
+   "pct_Z": 1.1
+  },
+  {
+   "feature": "GarageArea",
+   "Q1": 334.5,
+   "Q3": 576.0,
+   "IQR": 241.5,
+   "lower": -27.75,
+   "upper": 938.25,
+   "n_IQR": 21,
+   "n_Z": 7,
+   "zero_ratio": 0.055,
+   "skew": 0.18,
+   "pct_IQR": 1.44,
+   "pct_Z": 0.48
+  },
+  {
+   "feature": "WoodDeckSF",
+   "Q1": 0.0,
+   "Q3": 168.0,
+   "IQR": 168.0,
+   "lower": -252.0,
+   "upper": 420.0,
+   "n_IQR": 32,
+   "n_Z": 22,
+   "zero_ratio": 0.521,
+   "skew": 1.54,
+   "pct_IQR": 2.19,
+   "pct_Z": 1.51
+  },
+  {
+   "feature": "OpenPorchSF",
+   "Q1": 0.0,
+   "Q3": 68.0,
+   "IQR": 68.0,
+   "lower": -102.0,
+   "upper": 170.0,
+   "n_IQR": 77,
+   "n_Z": 27,
+   "zero_ratio": 0.449,
+   "skew": 2.36,
+   "pct_IQR": 5.27,
+   "pct_Z": 1.85
+  },
+  {
+   "feature": "EnclosedPorch",
+   "Q1": 0.0,
+   "Q3": 0.0,
+   "IQR": 0.0,
+   "lower": 0.0,
+   "upper": 0.0,
+   "n_IQR": 208,
+   "n_Z": 51,
+   "zero_ratio": 0.858,
+   "skew": 3.09,
+   "pct_IQR": 14.25,
+   "pct_Z": 3.49
+  },
+  {
+   "feature": "3SsnPorch",
+   "Q1": 0.0,
+   "Q3": 0.0,
+   "IQR": 0.0,
+   "lower": 0.0,
+   "upper": 0.0,
+   "n_IQR": 24,
+   "n_Z": 23,
+   "zero_ratio": 0.984,
+   "skew": 10.3,
+   "pct_IQR": 1.64,
+   "pct_Z": 1.58
+  },
+  {
+   "feature": "ScreenPorch",
+   "Q1": 0.0,
+   "Q3": 0.0,
+   "IQR": 0.0,
+   "lower": 0.0,
+   "upper": 0.0,
+   "n_IQR": 116,
+   "n_Z": 55,
+   "zero_ratio": 0.921,
+   "skew": 4.12,
+   "pct_IQR": 7.95,
+   "pct_Z": 3.77
+  },
+  {
+   "feature": "PoolArea",
+   "Q1": 0.0,
+   "Q3": 0.0,
+   "IQR": 0.0,
+   "lower": 0.0,
+   "upper": 0.0,
+   "n_IQR": 7,
+   "n_Z": 7,
+   "zero_ratio": 0.995,
+   "skew": 14.83,
+   "pct_IQR": 0.48,
+   "pct_Z": 0.48
+  },
+  {
+   "feature": "MiscVal",
+   "Q1": 0.0,
+   "Q3": 0.0,
+   "IQR": 0.0,
+   "lower": 0.0,
+   "upper": 0.0,
+   "n_IQR": 52,
+   "n_Z": 8,
+   "zero_ratio": 0.964,
+   "skew": 24.48,
+   "pct_IQR": 3.56,
+   "pct_Z": 0.55
+  }
+ ],
+ "core_cols": [
+  "LotFrontage",
+  "LotArea",
+  "MasVnrArea",
+  "BsmtFinSF1",
+  "BsmtUnfSF",
+  "TotalBsmtSF",
+  "1stFlrSF",
+  "2ndFlrSF",
+  "GrLivArea",
+  "GarageArea",
+  "WoodDeckSF",
+  "OpenPorchSF"
+ ],
+ "zero_infl": [
+  "BsmtFinSF2",
+  "LowQualFinSF",
+  "EnclosedPorch",
+  "3SsnPorch",
+  "ScreenPorch",
+  "PoolArea",
+  "MiscVal"
+ ],
+ "n_rows_any_iqr": 377,
+ "n_rows_any_z": 116,
+ "top_anomalies": [
+  {
+   "Id": 1299,
+   "GrLivArea": 5642,
+   "TotalBsmtSF": 6110,
+   "LotArea": 63887,
+   "GarageArea": 1418,
+   "SalePrice": 160000,
+   "SaleCondition": "Partial",
+   "n_flag_IQR": 9,
+   "n_flag_Z": 9
+  },
+  {
+   "Id": 524,
+   "GrLivArea": 4676,
+   "TotalBsmtSF": 3138,
+   "LotArea": 40094,
+   "GarageArea": 884,
+   "SalePrice": 184750,
+   "SaleCondition": "Partial",
+   "n_flag_IQR": 8,
+   "n_flag_Z": 6
+  },
+  {
+   "Id": 1183,
+   "GrLivArea": 4476,
+   "TotalBsmtSF": 2396,
+   "LotArea": 15623,
+   "GarageArea": 813,
+   "SalePrice": 745000,
+   "SaleCondition": "Abnorml",
+   "n_flag_IQR": 6,
+   "n_flag_Z": 6
+  },
+  {
+   "Id": 692,
+   "GrLivArea": 4316,
+   "TotalBsmtSF": 2444,
+   "LotArea": 21535,
+   "GarageArea": 832,
+   "SalePrice": 755000,
+   "SaleCondition": "Normal",
+   "n_flag_IQR": 6,
+   "n_flag_Z": 5
+  },
+  {
+   "Id": 225,
+   "GrLivArea": 2392,
+   "TotalBsmtSF": 2392,
+   "LotArea": 13472,
+   "GarageArea": 968,
+   "SalePrice": 386250,
+   "SaleCondition": "Normal",
+   "n_flag_IQR": 5,
+   "n_flag_Z": 4
+  },
+  {
+   "Id": 497,
+   "GrLivArea": 3228,
+   "TotalBsmtSF": 3200,
+   "LotArea": 12692,
+   "GarageArea": 546,
+   "SalePrice": 430000,
+   "SaleCondition": "Normal",
+   "n_flag_IQR": 4,
+   "n_flag_Z": 4
+  },
+  {
+   "Id": 179,
+   "GrLivArea": 2234,
+   "TotalBsmtSF": 2216,
+   "LotArea": 17423,
+   "GarageArea": 1166,
+   "SalePrice": 501837,
+   "SaleCondition": "Partial",
+   "n_flag_IQR": 5,
+   "n_flag_Z": 3
+  },
+  {
+   "Id": 770,
+   "GrLivArea": 3279,
+   "TotalBsmtSF": 1650,
+   "LotArea": 53504,
+   "GarageArea": 841,
+   "SalePrice": 538000,
+   "SaleCondition": "Normal",
+   "n_flag_IQR": 4,
+   "n_flag_Z": 3
+  },
+  {
+   "Id": 899,
+   "GrLivArea": 2364,
+   "TotalBsmtSF": 2330,
+   "LotArea": 12919,
+   "GarageArea": 820,
+   "SalePrice": 611657,
+   "SaleCondition": "Partial",
+   "n_flag_IQR": 4,
+   "n_flag_Z": 3
+  },
+  {
+   "Id": 1170,
+   "GrLivArea": 3627,
+   "TotalBsmtSF": 1930,
+   "LotArea": 35760,
+   "GarageArea": 807,
+   "SalePrice": 625000,
+   "SaleCondition": "Normal",
+   "n_flag_IQR": 4,
+   "n_flag_Z": 3
+  }
+ ],
+ "anom_ids": [
+  524,
+  1299
+ ],
+ "big_table": [
+  {
+   "Id": 524,
+   "GrLivArea": 4676,
+   "TotalBsmtSF": 3138,
+   "LotArea": 40094,
+   "OverallQual": 10,
+   "SaleCondition": "Partial",
+   "SalePrice": 184750
+  },
+  {
+   "Id": 692,
+   "GrLivArea": 4316,
+   "TotalBsmtSF": 2444,
+   "LotArea": 21535,
+   "OverallQual": 10,
+   "SaleCondition": "Normal",
+   "SalePrice": 755000
+  },
+  {
+   "Id": 1183,
+   "GrLivArea": 4476,
+   "TotalBsmtSF": 2396,
+   "LotArea": 15623,
+   "OverallQual": 10,
+   "SaleCondition": "Abnorml",
+   "SalePrice": 745000
+  },
+  {
+   "Id": 1299,
+   "GrLivArea": 5642,
+   "TotalBsmtSF": 6110,
+   "LotArea": 63887,
+   "OverallQual": 10,
+   "SaleCondition": "Partial",
+   "SalePrice": 160000
+  }
+ ],
+ "corr_table": [
+  {
+   "feature": "LotFrontage",
+   "corr_all": 0.3499,
+   "corr_wo_outlier": 0.3687,
+   "n_removed": 93,
+   "delta": 0.0188
+  },
+  {
+   "feature": "LotArea",
+   "corr_all": 0.2638,
+   "corr_wo_outlier": 0.4304,
+   "n_removed": 69,
+   "delta": 0.1666
+  },
+  {
+   "feature": "MasVnrArea",
+   "corr_all": 0.4726,
+   "corr_wo_outlier": 0.3456,
+   "n_removed": 98,
+   "delta": -0.127
+  },
+  {
+   "feature": "BsmtFinSF1",
+   "corr_all": 0.3864,
+   "corr_wo_outlier": 0.3807,
+   "n_removed": 7,
+   "delta": -0.0057
+  },
+  {
+   "feature": "BsmtUnfSF",
+   "corr_all": 0.2145,
+   "corr_wo_outlier": 0.1348,
+   "n_removed": 29,
+   "delta": -0.0796
+  },
+  {
+   "feature": "TotalBsmtSF",
+   "corr_all": 0.6136,
+   "corr_wo_outlier": 0.6143,
+   "n_removed": 61,
+   "delta": 0.0007
+  },
+  {
+   "feature": "1stFlrSF",
+   "corr_all": 0.6059,
+   "corr_wo_outlier": 0.6094,
+   "n_removed": 20,
+   "delta": 0.0035
+  },
+  {
+   "feature": "2ndFlrSF",
+   "corr_all": 0.3193,
+   "corr_wo_outlier": 0.2962,
+   "n_removed": 2,
+   "delta": -0.0232
+  },
+  {
+   "feature": "GrLivArea",
+   "corr_all": 0.7086,
+   "corr_wo_outlier": 0.6962,
+   "n_removed": 31,
+   "delta": -0.0125
+  },
+  {
+   "feature": "GarageArea",
+   "corr_all": 0.6234,
+   "corr_wo_outlier": 0.6218,
+   "n_removed": 21,
+   "delta": -0.0016
+  },
+  {
+   "feature": "WoodDeckSF",
+   "corr_all": 0.3244,
+   "corr_wo_outlier": 0.3278,
+   "n_removed": 32,
+   "delta": 0.0034
+  },
+  {
+   "feature": "OpenPorchSF",
+   "corr_all": 0.3159,
+   "corr_wo_outlier": 0.3904,
+   "n_removed": 77,
+   "delta": 0.0745
+  }
+ ],
+ "price_by_group": [
+  {
+   "group": "Bình thường",
+   "count": 1344,
+   "mean": 172149.0,
+   "median": 158000.0,
+   "std": 66164.0
+  },
+  {
+   "group": "Có outlier (Z>3)",
+   "count": 116,
+   "mean": 282556.0,
+   "median": 258500.0,
+   "std": 132764.0
+  }
+ ],
+ "regression_impact": {
+  "GrLivArea": {
+   "slope_all": 107.13035896582514,
+   "r2_all": 0.5021486502718042,
+   "slope_clean": 115.03998299377368,
+   "r2_clean": 0.5401782028813179,
+   "n_out": 2
+  },
+  "LotArea": {
+   "slope_all": 2.0999719517076736,
+   "r2_all": 0.0696133153821119,
+   "slope_clean": 4.97492540595554,
+   "r2_clean": 0.1256662977154943,
+   "n_out": 4
+  }
+ },
+ "rows_removed_D": 116,
+ "strategy_table": [
+  {
+   "strategy": "A. Giữ nguyên",
+   "RMSE(log) - mọi mẫu validation": 0.1584,
+   "RMSE(log) - bỏ 2 mẫu bất thường": 0.1376
+  },
+  {
+   "strategy": "B. Xóa 2 mẫu bất thường",
+   "RMSE(log) - mọi mẫu validation": 0.1531,
+   "RMSE(log) - bỏ 2 mẫu bất thường": 0.1291
+  },
+  {
+   "strategy": "C. B + cắt ngưỡng (winsorize 3·IQR)",
+   "RMSE(log) - mọi mẫu validation": 0.1407,
+   "RMSE(log) - bỏ 2 mẫu bất thường": 0.1276
+  },
+  {
+   "strategy": "D. Xóa mọi dòng có |z|>3",
+   "RMSE(log) - mọi mẫu validation": 0.1591,
+   "RMSE(log) - bỏ 2 mẫu bất thường": 0.1326
+  }
+ ],
+ "capped": [
+  {
+   "feature": "LotFrontage",
+   "train": 12,
+   "test": 7
+  },
+  {
+   "feature": "LotArea",
+   "train": 32,
+   "test": 19
+  },
+  {
+   "feature": "MasVnrArea",
+   "train": 26,
+   "test": 28
+  },
+  {
+   "feature": "BsmtFinSF1",
+   "train": 0,
+   "test": 1
+  },
+  {
+   "feature": "BsmtUnfSF",
+   "train": 0,
+   "test": 0
+  },
+  {
+   "feature": "TotalBsmtSF",
+   "train": 3,
+   "test": 2
+  },
+  {
+   "feature": "1stFlrSF",
+   "train": 1,
+   "test": 2
+  },
+  {
+   "feature": "2ndFlrSF",
+   "train": 0,
+   "test": 0
+  },
+  {
+   "feature": "GrLivArea",
+   "train": 2,
+   "test": 2
+  },
+  {
+   "feature": "GarageArea",
+   "train": 2,
+   "test": 3
+  },
+  {
+   "feature": "WoodDeckSF",
+   "train": 3,
+   "test": 4
+  },
+  {
+   "feature": "OpenPorchSF",
+   "train": 16,
+   "test": 18
+  }
+ ],
+ "cat_classification": [
+  {
+   "column": "ExterQual",
+   "type": "Ordinal",
+   "n_categories": 4,
+   "order": "None < Po < Fa < TA < Gd < Ex"
+  },
+  {
+   "column": "ExterCond",
+   "type": "Ordinal",
+   "n_categories": 5,
+   "order": "None < Po < Fa < TA < Gd < Ex"
+  },
+  {
+   "column": "BsmtQual",
+   "type": "Ordinal",
+   "n_categories": 5,
+   "order": "None < Po < Fa < TA < Gd < Ex"
+  },
+  {
+   "column": "BsmtCond",
+   "type": "Ordinal",
+   "n_categories": 5,
+   "order": "None < Po < Fa < TA < Gd < Ex"
+  },
+  {
+   "column": "HeatingQC",
+   "type": "Ordinal",
+   "n_categories": 5,
+   "order": "None < Po < Fa < TA < Gd < Ex"
+  },
+  {
+   "column": "KitchenQual",
+   "type": "Ordinal",
+   "n_categories": 4,
+   "order": "None < Po < Fa < TA < Gd < Ex"
+  },
+  {
+   "column": "FireplaceQu",
+   "type": "Ordinal",
+   "n_categories": 6,
+   "order": "None < Po < Fa < TA < Gd < Ex"
+  },
+  {
+   "column": "GarageQual",
+   "type": "Ordinal",
+   "n_categories": 6,
+   "order": "None < Po < Fa < TA < Gd < Ex"
+  },
+  {
+   "column": "GarageCond",
+   "type": "Ordinal",
+   "n_categories": 6,
+   "order": "None < Po < Fa < TA < Gd < Ex"
+  },
+  {
+   "column": "PoolQC",
+   "type": "Ordinal",
+   "n_categories": 4,
+   "order": "None < Po < Fa < TA < Gd < Ex"
+  },
+  {
+   "column": "BsmtExposure",
+   "type": "Ordinal",
+   "n_categories": 5,
+   "order": "None < No < Mn < Av < Gd"
+  },
+  {
+   "column": "BsmtFinType1",
+   "type": "Ordinal",
+   "n_categories": 7,
+   "order": "None < Unf < LwQ < Rec < BLQ < ALQ < GLQ"
+  },
+  {
+   "column": "BsmtFinType2",
+   "type": "Ordinal",
+   "n_categories": 7,
+   "order": "None < Unf < LwQ < Rec < BLQ < ALQ < GLQ"
+  },
+  {
+   "column": "Functional",
+   "type": "Ordinal",
+   "n_categories": 7,
+   "order": "Sal < Sev < Maj2 < Maj1 < Mod < Min2 < Min1 < Typ"
+  },
+  {
+   "column": "GarageFinish",
+   "type": "Ordinal",
+   "n_categories": 4,
+   "order": "None < Unf < RFn < Fin"
+  },
+  {
+   "column": "LotShape",
+   "type": "Ordinal",
+   "n_categories": 4,
+   "order": "IR3 < IR2 < IR1 < Reg"
+  },
+  {
+   "column": "LandSlope",
+   "type": "Ordinal",
+   "n_categories": 3,
+   "order": "Sev < Mod < Gtl"
+  },
+  {
+   "column": "PavedDrive",
+   "type": "Ordinal",
+   "n_categories": 3,
+   "order": "N < P < Y"
+  },
+  {
+   "column": "Fence",
+   "type": "Ordinal",
+   "n_categories": 5,
+   "order": "None < MnWw < GdWo < MnPrv < GdPrv"
+  },
+  {
+   "column": "Utilities",
+   "type": "Ordinal",
+   "n_categories": 2,
+   "order": "ELO < NoSeWa < NoSeWr < AllPub"
+  },
+  {
+   "column": "MSSubClass",
+   "type": "Nominal",
+   "n_categories": 15,
+   "order": "-"
+  },
+  {
+   "column": "MSZoning",
+   "type": "Nominal",
+   "n_categories": 5,
+   "order": "-"
+  },
+  {
+   "column": "Street",
+   "type": "Nominal",
+   "n_categories": 2,
+   "order": "-"
+  },
+  {
+   "column": "Alley",
+   "type": "Nominal",
+   "n_categories": 3,
+   "order": "-"
+  },
+  {
+   "column": "LandContour",
+   "type": "Nominal",
+   "n_categories": 4,
+   "order": "-"
+  },
+  {
+   "column": "LotConfig",
+   "type": "Nominal",
+   "n_categories": 5,
+   "order": "-"
+  },
+  {
+   "column": "Neighborhood",
+   "type": "Nominal",
+   "n_categories": 25,
+   "order": "-"
+  },
+  {
+   "column": "Condition1",
+   "type": "Nominal",
+   "n_categories": 9,
+   "order": "-"
+  },
+  {
+   "column": "Condition2",
+   "type": "Nominal",
+   "n_categories": 8,
+   "order": "-"
+  },
+  {
+   "column": "BldgType",
+   "type": "Nominal",
+   "n_categories": 5,
+   "order": "-"
+  },
+  {
+   "column": "HouseStyle",
+   "type": "Nominal",
+   "n_categories": 8,
+   "order": "-"
+  },
+  {
+   "column": "RoofStyle",
+   "type": "Nominal",
+   "n_categories": 6,
+   "order": "-"
+  },
+  {
+   "column": "RoofMatl",
+   "type": "Nominal",
+   "n_categories": 7,
+   "order": "-"
+  },
+  {
+   "column": "Exterior1st",
+   "type": "Nominal",
+   "n_categories": 15,
+   "order": "-"
+  },
+  {
+   "column": "Exterior2nd",
+   "type": "Nominal",
+   "n_categories": 16,
+   "order": "-"
+  },
+  {
+   "column": "MasVnrType",
+   "type": "Nominal",
+   "n_categories": 4,
+   "order": "-"
+  },
+  {
+   "column": "Foundation",
+   "type": "Nominal",
+   "n_categories": 6,
+   "order": "-"
+  },
+  {
+   "column": "Heating",
+   "type": "Nominal",
+   "n_categories": 6,
+   "order": "-"
+  },
+  {
+   "column": "CentralAir",
+   "type": "Nominal",
+   "n_categories": 2,
+   "order": "-"
+  },
+  {
+   "column": "Electrical",
+   "type": "Nominal",
+   "n_categories": 5,
+   "order": "-"
+  },
+  {
+   "column": "GarageType",
+   "type": "Nominal",
+   "n_categories": 7,
+   "order": "-"
+  },
+  {
+   "column": "MiscFeature",
+   "type": "Nominal",
+   "n_categories": 5,
+   "order": "-"
+  },
+  {
+   "column": "MoSold",
+   "type": "Nominal",
+   "n_categories": 12,
+   "order": "-"
+  },
+  {
+   "column": "SaleType",
+   "type": "Nominal",
+   "n_categories": 9,
+   "order": "-"
+  },
+  {
+   "column": "SaleCondition",
+   "type": "Nominal",
+   "n_categories": 6,
+   "order": "-"
+  }
+ ],
+ "shape_encoded": {
+  "train": [
+   1458,
+   249
+  ],
+  "test": [
+   1459,
+   248
+  ],
+  "n_ohe": 193
+ },
+ "checks": {
+  "Không còn cột kiểu chữ (object)": true,
+  "Không còn NaN (train)": true,
+  "Không còn NaN (test)": true,
+  "Train và test cùng bộ cột": true,
+  "Ordinal nằm trong miền hợp lệ": true,
+  "Tổng dummy = 1 mỗi dòng (train)": true
+ },
+ "unseen_test": {
+  "MSSubClass": 1
+ },
+ "ordinal_monotonic": {
+  "ExterQual": true,
+  "ExterCond": false,
+  "BsmtQual": true,
+  "BsmtCond": false,
+  "HeatingQC": true,
+  "KitchenQual": true,
+  "FireplaceQu": false,
+  "GarageQual": false,
+  "GarageCond": false,
+  "PoolQC": true,
+  "BsmtExposure": true,
+  "BsmtFinType1": false,
+  "BsmtFinType2": false,
+  "Functional": false,
+  "GarageFinish": true,
+  "LotShape": false,
+  "LandSlope": false,
+  "PavedDrive": true,
+  "Fence": false,
+  "Utilities": true
+ },
+ "n_scaled": {
+  "standard": 32,
+  "minmax": 22,
+  "ohe": 193
+ },
+ "scale_compare": {
+  "GrLivArea": {
+   "Trước": {
+    "mean": 1509.536,
+    "std": 503.184,
+    "min": 334.0,
+    "max": 3718.5,
+    "skew": 0.901
+   },
+   "Sau (train)": {
+    "mean": 0.0,
+    "std": 1.0,
+    "min": -2.337,
+    "max": 4.391,
+    "skew": 0.901
+   },
+   "Sau (test)": {
+    "mean": -0.049,
+    "std": 0.953,
+    "min": -2.192,
+    "max": 4.391,
+    "skew": 0.947
+   }
+  },
+  "LotArea": {
+   "Trước": {
+    "mean": 9832.11,
+    "std": 4124.712,
+    "min": 1300.0,
+    "max": 23766.5,
+    "skew": 0.98
+   },
+   "Sau (train)": {
+    "mean": 0.0,
+    "std": 1.0,
+    "min": -2.069,
+    "max": 3.379,
+    "skew": 0.98
+   },
+   "Sau (test)": {
+    "mean": -0.045,
+    "std": 0.976,
+    "min": -2.028,
+    "max": 3.379,
+    "skew": 0.804
+   }
+  },
+  "TotalBsmtSF": {
+   "Trước": {
+    "mean": 1051.785,
+    "std": 411.458,
+    "min": 0.0,
+    "max": 2801.25,
+    "skew": 0.409
+   },
+   "Sau (train)": {
+    "mean": -0.0,
+    "std": 1.0,
+    "min": -2.557,
+    "max": 4.253,
+    "skew": 0.409
+   },
+   "Sau (test)": {
+    "mean": -0.019,
+    "std": 1.053,
+    "min": -2.557,
+    "max": 4.253,
+    "skew": 0.357
+   }
+  },
+  "YearBuilt": {
+   "Trước": {
+    "mean": 1971.218,
+    "std": 30.194,
+    "min": 1872.0,
+    "max": 2010.0,
+    "skew": -0.612
+   },
+   "Sau (train)": {
+    "mean": 0.0,
+    "std": 1.0,
+    "min": -3.287,
+    "max": 1.285,
+    "skew": -0.612
+   },
+   "Sau (test)": {
+    "mean": 0.005,
+    "std": 1.007,
+    "min": -3.055,
+    "max": 1.285,
+    "skew": -0.588
+   }
+  },
+  "KitchenQual": {
+   "Trước": {
+    "mean": 3.51,
+    "std": 0.662,
+    "min": 2.0,
+    "max": 5.0,
+    "skew": 0.384
+   },
+   "Sau (train)": {
+    "mean": 0.503,
+    "std": 0.221,
+    "min": 0.0,
+    "max": 1.0,
+    "skew": 0.384
+   },
+   "Sau (test)": {
+    "mean": 0.503,
+    "std": 0.22,
+    "min": 0.0,
+    "max": 1.0,
+    "skew": 0.492
+   }
+  },
+  "OverallQual": {
+   "Trước": {
+    "mean": 6.094,
+    "std": 1.376,
+    "min": 1.0,
+    "max": 10.0,
+    "skew": 0.201
+   },
+   "Sau (train)": {
+    "mean": 0.566,
+    "std": 0.153,
+    "min": 0.0,
+    "max": 1.0,
+    "skew": 0.201
+   },
+   "Sau (test)": {
+    "mean": 0.564,
+    "std": 0.16,
+    "min": 0.0,
+    "max": 1.0,
+    "skew": 0.181
+   }
+  }
+ },
+ "scale_check": {
+  "mean_abs_max": 1.5038724723687922e-14,
+  "std_min": 0.9999999999999998,
+  "std_max": 1.0000000000000002,
+  "mm_train": [
+   0.0,
+   1.0
+  ],
+  "mm_test": [
+   0.0,
+   1.0
+  ],
+  "skew_before": 2.861821645232858,
+  "skew_after": 2.861821645232856
+ },
+ "final_shape": {
+  "train": [
+   1458,
+   249
+  ],
+  "test": [
+   1459,
+   248
+  ],
+  "n_features": 247
+ },
+ "final_checks": {
+  "Không NaN/inf (train)": true,
+  "Không NaN/inf (test)": true,
+  "Toàn bộ cột là số": true,
+  "Train/test cùng bộ cột đặc trưng": true
+ },
+ "smoke_test": {
+  "Ridge (bản scale)": 0.11635433174961449,
+  "RandomForest (bản chưa scale)": 0.13799855939480185
+ },
+ "n_train_removed": 2
+}
