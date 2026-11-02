@@ -5,3 +5,4 @@ matplotlib
 seaborn
 ucimlrepo
 jupyter
+python>=3.10

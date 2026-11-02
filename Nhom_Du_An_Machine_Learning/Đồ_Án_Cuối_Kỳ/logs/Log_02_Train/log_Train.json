@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-02",
+  "runner": "src/feature_pipeline.py",
+  "dataset": "sources/diabetes.csv",
+  "rows": 253680,
+  "features": 21,
+  "target": "Diabetes_binary",
+  "class_counts": {
+    "0": 218334,
+    "1": 35346
+  },
+  "missing_cells": 0,
+  "duplicate_rows_retained": 24206,
+  "duplicate_fraction": 0.09541942604856513,
+  "train_rows": 202944,
+  "test_rows": 50736,
+  "test_size": 0.2,
+  "random_state": 42,
+  "cv": "StratifiedKFold(5, shuffle=True, random_state=42)",
+  "model": "LogisticRegression(class_weight=balanced, solver=liblinear, max_iter=500)",
+  "versions": {
+    "python": "3.14.3",
+    "pandas": "3.0.2",
+    "scikit_learn": "1.8.0"
+  },
+  "status": "CV complete; holdout test not evaluated",
+  "original": {
+    "macro_f1_mean": 0.6333652905942004,
+    "macro_f1_std": 0.0014111908338687485,
+    "accuracy_mean": 0.7319506777192876
+  },
+  "engineered": {
+    "macro_f1_mean": 0.6320640409977566,
+    "macro_f1_std": 0.0015047407496534709,
+    "accuracy_mean": 0.7289941928644612
+  },
+  "notebook_run_date": "2026-11-02",
+  "notebook_results": {
+    "Không thêm đặc trưng": {
+      "Macro F1 trung bình": 0.6333652905942004,
+      "Macro F1 độ lệch chuẩn": 0.0014111908338687485,
+      "Accuracy trung bình": 0.7319506777192876
+    },
+    "Có đặc trưng mới": {
+      "Macro F1 trung bình": 0.6320640409977566,
+      "Macro F1 độ lệch chuẩn": 0.0015047407496534709,
+      "Accuracy trung bình": 0.7289941928644612
+    }
+  },
+  "notebook_status": "CV complete; holdout test not evaluated"
+}
