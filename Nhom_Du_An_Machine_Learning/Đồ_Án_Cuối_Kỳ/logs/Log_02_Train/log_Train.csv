@@ -1,3 +1,0 @@
-﻿date,runner,model,parameters,data_split,metric,remarks
-2026-11-02,notebooks/feature_pipeline.ipynb,LogisticRegression,"class_weight=balanced, solver=liblinear, max_iter=500","Stratified 80/20, seed=42; CV chỉ trên train; test chưa đánh giá",5-fold Macro F1=0.633365 ± 0.001411; accuracy=0.731951,Không thêm đặc trưng
-2026-11-02,notebooks/feature_pipeline.ipynb,LogisticRegression,"class_weight=balanced, solver=liblinear, max_iter=500","Stratified 80/20, seed=42; CV chỉ trên train; test chưa đánh giá",5-fold Macro F1=0.632064 ± 0.001505; accuracy=0.728994,Có đặc trưng mới
