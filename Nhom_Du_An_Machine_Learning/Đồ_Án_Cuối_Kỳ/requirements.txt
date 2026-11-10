@@ -1,8 +1,0 @@
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-ucimlrepo
-jupyter
-python>=3.10
