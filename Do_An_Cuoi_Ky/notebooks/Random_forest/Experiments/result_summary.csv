@@ -1,0 +1,7 @@
+exp_id,model,split,n_samples,key_params,accuracy,macro_precision,macro_recall,macro_f1,precision_c0,precision_c1,precision_c2,recall_c0,recall_c1,recall_c2,f1_c0,f1_c1,f1_c2,gap_macro_f1,status,note
+E01,RF baseline,train,177576,"default (n_estimators=100, max_depth=None, max_features=sqrt)",0.99358,,,0.98197,,,,,,,,,,0.58461,done,Train metric dung de chan doan overfit; accuracy gap = 0.15010
+E01,RF baseline,validation,38052,"default (n_estimators=100, max_depth=None, max_features=sqrt)",0.84348,0.45473,0.38743,0.39736,0.86,0.00,0.50,0.97,0.00,0.19,0.91,0.00,0.28,0.58461,done,Overfit nang; Prediabetes F1=0; per-class lam tron 2 chu so
+E02,RF tuned,train,177576,"max_depth=15, min_samples_split=10, min_samples_leaf=1, max_features=None, n_estimators=100",,,,0.48566,,,,,,,,,,0.08745,done,Chi co Macro-F1 train trong output notebook
+E02,RF tuned,validation,38052,"max_depth=15, min_samples_split=10, min_samples_leaf=1, max_features=None, n_estimators=100",0.84952,0.47293,0.38756,0.39821,,,,,,,,,,0.08745,done,Giam overfit; Macro-F1 chi +0.00085 so voi baseline (trong nhieu); notebook chua in report theo lop
+E04,RF final (train+val),test,38052,"max_depth=15, min_samples_split=10, min_samples_leaf=1, max_features=None, n_estimators=100",0.84805,0.46754,0.38956,0.40050,0.86,0.00,0.54,0.97,0.00,0.19,0.92,0.00,0.29,,done,Fit tren 215628 mau (train+val); danh gia test 1 lan; ket qua ~ validation E02 nen on dinh
+E05,RF + class_weight,validation,38052,"class_weight=balanced / balanced_subsample (du kien)",,,,,,,,,,,,,,,planned,Chua chay; dien ket qua sau khi chay
